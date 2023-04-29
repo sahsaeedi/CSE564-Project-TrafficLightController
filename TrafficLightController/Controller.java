@@ -2,11 +2,11 @@ package TrafficLightController;
 
 import java.util.ArrayList;
 
-import Codes6.PedestrianLights;
-import Codes6.TrafficLights;
-import Codes6.Camera;
-import Codes6.MainPedLightSensor;
-import Codes6.MinorPedLightSensor;
+import TrafficLightController.PedestrianLights;
+import TrafficLightController.TrafficLights;
+import TrafficLightController.Camera;
+import TrafficLightController.MainPedLightSensor;
+import TrafficLightController.MinorPedLightSensor;
 
 public class Controller {
 
@@ -19,7 +19,7 @@ public class Controller {
 	public static final String LEFTTURN = "\u001B[42m"+ "Left Turn Light is GREEN" + "\u001B[0m";
 
 	public static void main(String args[]) throws Throwable {
-		PATH = "C:\\Users\\HP\\eclipse-workspace\\CSE564-Project\\TrafficLightController\\src\\Codes6\\data.csv";
+		PATH = "C:\\Users\\HP\\eclipse-workspace\\CSE564-Project\\TrafficLightController\\src\\TrafficLightController\\data.csv";
 		TIME_STAMP = 217;
 		
 		Camera camera=new Camera(PATH);
